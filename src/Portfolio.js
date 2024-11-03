@@ -150,21 +150,13 @@ export default function Component() {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            // const response = await fetch('http://localhost:5000/api/contact', {
-            //     method: 'POST',
-            //     headers: {
-            //         'Content-Type': 'application/json',
-            //     },
-            //     body: JSON.stringify(data),
-            // });
-            const response = await fetch(`${API_BASE_URL}/api/login`, {
+            const response = await fetch('http://localhost:5000/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ username: 'ssk', password: 'Salut123!456' }),
+                body: JSON.stringify(data),
             });
-
 
             if (response.ok) {
                 alert('Message sent successfully!');

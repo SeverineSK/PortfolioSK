@@ -13,6 +13,7 @@ import Pushswap from './assets/pushswap.png';
 import Ecommerce from './assets/ecommerce.png';
 import MyFriendsFit from './assets/myfriendsfit.png';
 import Maquette from './assets/maquette1.png';
+import API_BASE_URL from './api'; 
 
 const projects = [
     { name: 'Puissance 4', imgSrc: Puissance4, link: 'https://severinesk.github.io/Puissance4/' },
@@ -149,13 +150,21 @@ export default function Component() {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const response = await fetch('http://localhost:5000/api/contact', {
+            // const response = await fetch('http://localhost:5000/api/contact', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/json',
+            //     },
+            //     body: JSON.stringify(data),
+            // });
+            const response = await fetch(`${API_BASE_URL}/api/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(data),
             });
+
 
             if (response.ok) {
                 alert('Message sent successfully!');

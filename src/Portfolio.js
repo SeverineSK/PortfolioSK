@@ -13,7 +13,7 @@ import Pushswap from './assets/pushswap.png';
 import Ecommerce from './assets/ecommerce.png';
 import MyFriendsFit from './assets/myfriendsfit.png';
 import Maquette from './assets/maquette1.png';
-import API_BASE_URL from './api'; 
+import API_BASE_URL from './api';
 
 const projects = [
     { name: 'Puissance 4', imgSrc: Puissance4, link: 'https://severinesk.github.io/Puissance4/' },
@@ -162,7 +162,7 @@ export default function Component() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(data),
+                body: JSON.stringify({ username: 'ssk', password: 'Salut123!456' }),
             });
 
 
@@ -442,7 +442,7 @@ export default function Component() {
                         <AnimatedSection>
                             <h2 className="text-4xl font-bold text-center text-[#593B21] mb-12">Mes Projets</h2>
                         </AnimatedSection>
-                      
+
                         <AnimatedSection className="relative max-w-6xl mx-auto" delay={300}>
                             <div className="flex justify-center items-center">
                                 <div className="hidden lg:flex justify-center items-center gap-8">

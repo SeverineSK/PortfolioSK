@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a874bd7c.css",
+    "main.js": "/static/js/main.ad6f39c2.js",
+    "static/media/myfriendsfit.png": "/static/media/myfriendsfit.6be9dfb8e561b379e342.png",
+    "static/media/mycinema.png": "/static/media/mycinema.1b8a230b222d99bd9a29.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.3214b56d35c8dfb7bdde.png",
+    "static/media/severine.png": "/static/media/severine.ce53b2ab1c80d0b8fb82.png",
+    "static/media/maquette1.png": "/static/media/maquette1.16e7e0bda74a69f6f302.png",
+    "static/media/aboutme.png": "/static/media/aboutme.92071f0f917127ddddd6.png",
+    "static/media/CVSéverineKOMBO.pdf": "/static/media/CVSéverineKOMBO.710c5441a899cb65aa6d.pdf",
+    "static/media/puissance4.png": "/static/media/puissance4.e103b5a6adf06fbadc3f.png",
+    "static/media/pushswap.png": "/static/media/pushswap.b85c4e7153e82893ef96.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a874bd7c.css.map": "/static/css/main.a874bd7c.css.map",
+    "main.ad6f39c2.js.map": "/static/js/main.ad6f39c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a874bd7c.css",
+    "static/js/main.ad6f39c2.js"
+  ]
+}

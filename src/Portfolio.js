@@ -13,7 +13,6 @@ import Pushswap from './assets/pushswap.png';
 import Ecommerce from './assets/ecommerce.png';
 import MyFriendsFit from './assets/myfriendsfit.png';
 import Maquette from './assets/maquette1.png';
-import API_BASE_URL from './api';
 
 const projects = [
     { name: 'Puissance 4', imgSrc: Puissance4, link: 'https://severinesk.github.io/Puissance4/' },

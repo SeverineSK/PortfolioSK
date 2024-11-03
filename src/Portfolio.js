@@ -23,7 +23,6 @@ const projects = [
     { name: 'Design', imgSrc: Maquette, link: 'https://github.com/SeverineSK/Maquette' },
 ];
 
-
 const techLogos = [
     { name: 'PHP', src: require('./assets/PHP.png') },
     { name: 'Node.js', src: require('./assets/node.png') },
@@ -37,7 +36,6 @@ const techLogos = [
     { name: 'Tailwind', src: require('./assets/tailwind.png') },
     { name: 'Git', src: require('./assets/git.png') },
 ];
-
 
 function useIntersectionObserver(ref, options) {
     const [isIntersecting, setIsIntersecting] = useState(false);

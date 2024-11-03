@@ -347,6 +347,7 @@ export default function Component() {
                             <p className="text-sm mb-6">
                                 Actuellement en fin de cursus pour l'obtention de mon diplôme de <b>Développeuse Full Stack</b>, je suis à la recherche d'un CDI à partir du 25 novembre 2024. Après une réorientation professionnelle marquée par une expérience de 7 ans dans différents secteurs, j'ai acquis une polyvalence qui me permet d'aborder le développement avec une vision unique. Ayant débuté dans l'informatique depuis 2 ans, ma passion pour ce domaine me pousse à apprendre continuellement et à rester en phase avec les évolutions technologiques. Fascinée par la technologie, les voyages, et l'immobilier, je m'efforce d'apporter un regard nouveau et dynamique dans chacun de mes projets.
                             </p>
+
                             <div className="flex items-center space-x-12 mb-6">
                                 <div className="flex items-center">
                                     <p className="text-4xl font-bold mr-3">2</p>

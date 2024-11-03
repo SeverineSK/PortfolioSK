@@ -1,0 +1,17 @@
+/* Ajoute ces styles globaux */
+body {
+  @apply bg-[#c2b0c0] font-sans;
+}
+
+/* Media queries personnalisées */
+@media (max-width: 768px) {
+  body {
+    @apply text-sm;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    @apply text-xs;
+  }
+}
